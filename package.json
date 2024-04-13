@@ -1,0 +1,13 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Odelon Jhey Pacalso <odjhey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.2"
+  }
+}
