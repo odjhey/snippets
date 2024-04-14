@@ -4,6 +4,7 @@ type UseFunctionAsync<N, Output, Input> = {
   fn: (input: Input) => Promise<Output>
 }
 
+// @todo return a ResultType
 const makeCreateOrder = () => {
   type CreateOrder = UseFunctionAsync<
     'createOrder',
